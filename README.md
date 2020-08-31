@@ -5,7 +5,7 @@ Scraping data + topic modeling and visualization
 1) scraping data:
 
 Inorder to create our dataset we used BeautifulSoup python library to scrape data from 2 websites:
-http://www.clarkprosecutor.org/html/death/usexecute.htm
+http://www.clarkprosecutor.org/html/death/usexecute.htm \
 https://www.tdcj.texas.gov/death_row/dr_executed_offenders.html
 For each prisoner a Prisoner object was created including all his details from both website (age, race, sex, d.o.b, last statement and more) and performing cross-checking on the information.
 
@@ -30,9 +30,9 @@ The topic modeling based mainly on the Gensim python package.
 9. Then we applied gensim.models.ldamodel for the creating our topic modeling algorithm.
 
 Helpful websites: 
-https://www.tutorialspoint.com/gensim/gensim_creating_lda_topic_model.htm
-https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
-https://medium.com/@krunal18/topic-modeling-with-latent-dirichlet-allocation-lda-decomposition-scikit-learn-and-wordcloud-1ff0b8e8a8eb
+https://www.tutorialspoint.com/gensim/gensim_creating_lda_topic_model.htm \
+https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/ \
+https://medium.com/@krunal18/topic-modeling-with-latent-dirichlet-allocation-lda-decomposition-scikit-learn-and-wordcloud-1ff0b8e8a8eb \
 
 3) Results and Visualiztion
 
@@ -40,6 +40,6 @@ For validating our results we calculated coherence score using gensim.models.Coh
 And for visualization we used WordCloud package and pyLDAvis.
 
 Helpful websites:
-Word clouds using https://stackoverflow.com/questions/40278023/how-do-i-print-lda-topic-model-and-the-word-cloud-of-each-of-the-topics
+Word clouds using https://stackoverflow.com/questions/40278023/how-do-i-print-lda-topic-model-and-the-word-cloud-of-each-of-the-topics \
 Graphs were created using https://plotly.com
 
