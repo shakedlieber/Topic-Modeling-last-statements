@@ -12,6 +12,9 @@ For each prisoner a Prisoner object was created including all his details from b
 An array of Prisoners object was created including all the details needed.
 Using CSV python library we created a CSV file which hold all the collected data.
 
+Helpful websites: 
+https://www.dataquest.io/blog/web-scraping-beautifulsoup/
+
 2) Topic Modeling
 
 For performing the topic modeling we first needed to clean our data for optimal results.
@@ -25,6 +28,11 @@ The topic modeling based mainly on the Gensim python package.
 7. using gensim.corpora.Dictionary created a dictionay fillled with id's and words.
 8. To create or final corpus we used doc2bow for creating our bag of words.
 9. Then we applied gensim.models.ldamodel for the creating our topic modeling algorithm.
+
+Helpful websites: 
+https://www.tutorialspoint.com/gensim/gensim_creating_lda_topic_model.htm
+https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
+https://medium.com/@krunal18/topic-modeling-with-latent-dirichlet-allocation-lda-decomposition-scikit-learn-and-wordcloud-1ff0b8e8a8eb
 
 3) Results and Visualiztion
 
