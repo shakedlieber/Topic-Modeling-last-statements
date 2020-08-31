@@ -2,7 +2,7 @@
 LDA Topic modeling in death row prisoners last statements
 Scraping data + topic modeling and visualization
 
-First step - scraping data:
+1) scraping data:
 
 Inorder to create our dataset we used BeautifulSoup python library to scrape data from 2 websites:
 http://www.clarkprosecutor.org/html/death/usexecute.htm
@@ -12,7 +12,7 @@ For each prisoner a Prisoner object was created including all his details from b
 An array of Prisoners object was created including all the details needed.
 Using CSV python library we created a CSV file which hold all the collected data.
 
-Second step - Topic Modeling
+2) Topic Modeling
 
 For performing the topic modeling we first needed to clean our data for optimal results.
 The topic modeling based mainly on the Gensim python package.
@@ -26,7 +26,7 @@ The topic modeling based mainly on the Gensim python package.
 8. To create or final corpus we used doc2bow for creating our bag of words.
 9. Then we applied gensim.models.ldamodel for the creating our topic modeling algorithm.
 
-Third step - results and visualiztion
+3) Results and Visualiztion
 
 For validating our results we calculated coherence score using gensim.models.CoherenceModel
 And for visualization we used WordCloud package and pyLDAvis.
