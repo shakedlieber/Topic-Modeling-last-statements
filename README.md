@@ -39,5 +39,7 @@ https://medium.com/@krunal18/topic-modeling-with-latent-dirichlet-allocation-lda
 For validating our results we calculated coherence score using gensim.models.CoherenceModel
 And for visualization we used WordCloud package and pyLDAvis.
 
-
+Helpful websites:
+Word clouds using https://stackoverflow.com/questions/40278023/how-do-i-print-lda-topic-model-and-the-word-cloud-of-each-of-the-topics
+Graphs were created using https://plotly.com
 
